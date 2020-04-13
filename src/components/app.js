@@ -4,6 +4,8 @@ import moment from "moment";
 import TimeContainer from "./time-container";
 import FontSize from "./font-size";
 import HideMe from "./hide-me"
+import CountMe from "./count-me"
+import PokeMe from "./poke-me"
 
 export default class App extends Component {
   render() {
@@ -14,6 +16,8 @@ export default class App extends Component {
           <TimeContainer />
           <FontSize />
           <HideMe />
+          <CountMe />
+          <PokeMe />
 
         </div>
       </div>
