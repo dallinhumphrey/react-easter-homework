@@ -25,7 +25,7 @@ export default class App extends Component {
 
           <Switch>
             <Route path="/poke-me" component={PokeMe} />
-            <Route path="/color-changer" component={ColorChanger} />
+            <Route exact path="/color-changer" component={ColorChanger} />
             <Route path="/hide-me" component={HideMe} />
             <Route path="/font-size" component={FontSize} />
             <Route path="/count-me" component={CountMe} />
