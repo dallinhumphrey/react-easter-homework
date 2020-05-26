@@ -54,9 +54,20 @@ const NavigationComponent = (props) => {
             change me
           </NavLink>
         </div>
+
         <div className="nav-link-wrapper">
-          <NavLink to="/grow-me" activeClassName="nav-link-active">
-            grow me
+          <NavLink to="/count-me" activeClassName="nav-link-active">
+            count me
+          </NavLink>
+        </div>
+        <div className="nav-link-wrapper">
+          <NavLink to="/color-changer" activeClassName="nav-link-active">
+            color changer
+          </NavLink>
+        </div>
+        <div className="nav-link-wrapper">
+          <NavLink to="/font-size" activeClassName="nav-link-active">
+            font size
           </NavLink>
         </div>
 
